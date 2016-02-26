@@ -34,7 +34,7 @@ def get_captcha(s,captcha_url):
         f.write(line)
     f.close()
    
-    print u'输入验证码:' 
+    print u'输入验证�?' 
     captcha_str = raw_input()
     return captcha_str
 
@@ -82,4 +82,4 @@ def login(email,passwd):
     
 
 if __name__=='__main__':
-    login('1206885945@qq.com','19910118vhw')
+    login('----------','**********')
